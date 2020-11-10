@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "CalculadoraNutri",
+    "slug": "calculadora",
+    "version": "4.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconeps.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.nutriinterativa.calculadora",
+      "versionCode": 4,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3107661564294379~2926527615"
+      }
+      
+
+    }
+  }
+}

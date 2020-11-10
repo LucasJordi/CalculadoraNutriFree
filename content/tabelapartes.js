@@ -1,0 +1,92 @@
+
+import React from 'react';
+
+
+
+
+
+
+
+
+
+
+
+export const tabelanconv=[
+
+    {Indice:'1',Desc:'ACELGA (talo)',Peso:'100',Proteinas:'0.43',Carboidratos:'3.9',Lipideos:'0.044',Fibras:'1.11',VitaminaC:'95',Carotenóides:'0.244',Calcio:'0.019',Potassio:'0.25',Fosforo:'0.0062',Ferro:'0.0004',Agua:'96'},
+{Indice:'2',Desc:'Abacaxi (polpa)',Peso:'100',Proteinas:'0.44',Carboidratos:'7.33',Lipideos:'0.079',Fibras:'0.81',VitaminaC:'10.4',Carotenóides:'35.5',Calcio:'3.7',Potassio:'0.15',Fosforo:'17.2',Ferro:'*',Agua:'89'},
+{Indice:'3',Desc:'Abacaxi (casca)',Peso:'100',Proteinas:'0.89',Carboidratos:'4.07',Lipideos:'0.24',Fibras:'3.1',VitaminaC:'16.8',Carotenóides:'0.48',Calcio:'8.1',Potassio:'0.24',Fosforo:'20.2',Ferro:'*',Agua:'83'},
+{Indice:'4',Desc:'Abóbora (polpa)',Peso:'100',Proteinas:'0.81',Carboidratos:'2.04',Lipideos:'0.14',Fibras:'1.06',VitaminaC:'3.5',Carotenóides:'89.3',Calcio:'4.36',Potassio:'0.33',Fosforo:'14.7',Ferro:'*',Agua:'93'},
+{Indice:'5',Desc:'Abóbora (casca)',Peso:'100',Proteinas:'1.65',Carboidratos:'1.72',Lipideos:'0.42',Fibras:'2.34',VitaminaC:'2.16',Carotenóides:'3.94',Calcio:'*',Potassio:'0.51',Fosforo:'*',Ferro:'*',Agua:'87'},
+{Indice:'6',Desc:'Abóbora (semente)',Peso:'100',Proteinas:'25.39',Carboidratos:'1.65',Lipideos:'12.54',Fibras:'29.6',VitaminaC:'2.5',Carotenóides:'1.57',Calcio:'0.8',Potassio:'2.41',Fosforo:'0.1',Ferro:'0.01',Agua:'41'},
+{Indice:'7',Desc:'Agrião (talo)',Peso:'100',Proteinas:'0.52',Carboidratos:'0.07',Lipideos:'0.063',Fibras:'0.59',VitaminaC:'10.17',Carotenóides:'0.85',Calcio:'12.6',Potassio:'0.26',Fosforo:'0.709',Ferro:'11.3',Agua:'97'},
+{Indice:'8',Desc:'Banana (polpa)',Peso:'100',Proteinas:'2.15',Carboidratos:'14.4',Lipideos:'0.32',Fibras:'1.32',VitaminaC:'3.9',Carotenóides:'24.5',Calcio:'4.86',Potassio:'0.45',Fosforo:'31.1',Ferro:'*',Agua:'73'},
+{Indice:'9',Desc:'Banana (casca)',Peso:'100',Proteinas:'1.1',Carboidratos:'2.19',Lipideos:'0.35',Fibras:'1.29',VitaminaC:'10.14',Carotenóides:'0.008',Calcio:'*',Potassio:'0.93',Fosforo:'15.9',Ferro:'*',Agua:'88'},
+{Indice:'10',Desc:'Batata doce (polpa)',Peso:'100',Proteinas:'1.57',Carboidratos:'8.02',Lipideos:'0.3',Fibras:'0.6',VitaminaC:'3',Carotenóides:'0.456',Calcio:'0.5',Potassio:'3.4',Fosforo:'0.1',Ferro:'tr',Agua:'63'},
+{Indice:'11',Desc:'Batata doce (casca)',Peso:'100',Proteinas:'1.31',Carboidratos:'0.48',Lipideos:'0.12',Fibras:'1.39',VitaminaC:'40',Carotenóides:'0.39',Calcio:'0.06',Potassio:'0.96',Fosforo:'0.0009',Ferro:'0.0024',Agua:'88'},
+{Indice:'12',Desc:'Batata doce roxa (polpa)',Peso:'100',Proteinas:'2.98',Carboidratos:'6.48',Lipideos:'0.28',Fibras:'1',VitaminaC:'2.6',Carotenóides:'0.38',Calcio:'0.08',Potassio:'3.39',Fosforo:'0.1',Ferro:'tr',Agua:'58'},
+{Indice:'13',Desc:'Batata doce roxa (casca)',Peso:'100',Proteinas:'3.04',Carboidratos:'3.3',Lipideos:'0.32',Fibras:'1.46',VitaminaC:'3.4',Carotenóides:'1.805',Calcio:'0.69',Potassio:'6.09',Fosforo:'0.1',Ferro:'0.01',Agua:'66'},
+{Indice:'14',Desc:'Berinjela (polpa)',Peso:'100',Proteinas:'0.72',Carboidratos:'2.72',Lipideos:'0.064',Fibras:'1.06',VitaminaC:'3.9',Carotenóides:'8.14',Calcio:'2.67',Potassio:'0.17',Fosforo:'10.1',Ferro:'*',Agua:'94'},
+{Indice:'15',Desc:'Berinjela (casca)',Peso:'100',Proteinas:'0.86',Carboidratos:'0.71',Lipideos:'0.1',Fibras:'1.37',VitaminaC:'*',Carotenóides:'1.43',Calcio:'*',Potassio:'0.27',Fosforo:'*',Ferro:'*',Agua:'93'},
+{Indice:'16',Desc:'Beterraba (talo)',Peso:'100',Proteinas:'0.25',Carboidratos:'0.36',Lipideos:'0.59',Fibras:'1.6',VitaminaC:'15.21',Carotenóides:'0.031',Calcio:'34.4',Potassio:'0.44',Fosforo:'29',Ferro:'*',Agua:'92'},
+{Indice:'17',Desc:'Beterraba (polpa)',Peso:'100',Proteinas:'2.26',Carboidratos:'1.57',Lipideos:'0.11',Fibras:'0.9',VitaminaC:'4.4',Carotenóides:'10.42',Calcio:'0.08',Potassio:'2.82',Fosforo:'0.68',Ferro:'0.065',Agua:'91'},
+{Indice:'18',Desc:'Beterraba (folha)',Peso:'100',Proteinas:'2.64',Carboidratos:'0.68',Lipideos:'0.34',Fibras:'1.34',VitaminaC:'557',Carotenóides:'9.25',Calcio:'2.91',Potassio:'7.29',Fosforo:'0.38',Ferro:'0.02',Agua:'91'},
+{Indice:'19',Desc:'Beterraba (casca)',Peso:'100',Proteinas:'2.26',Carboidratos:'1.23',Lipideos:'0.21',Fibras:'1.74',VitaminaC:'331',Carotenóides:'6.28',Calcio:'0.03',Potassio:'0.66',Fosforo:'0.029',Ferro:'0.0065',Agua:'87'},
+{Indice:'20',Desc:'Brócolis (talo)',Peso:'100',Proteinas:'2.64',Carboidratos:'0.29',Lipideos:'0.12',Fibras:'1.12',VitaminaC:'5.7',Carotenóides:'1.009',Calcio:'3.2',Potassio:'5.34',Fosforo:'0.18',Ferro:'0.01',Agua:'31'},
+{Indice:'21',Desc:'Brócolis (folha)',Peso:'100',Proteinas:'0.54',Carboidratos:'2.13',Lipideos:'0.59',Fibras:'2.59',VitaminaC:'11.8',Carotenóides:'23.43',Calcio:'2.49',Potassio:'7.25',Fosforo:'0.24',Ferro:'0.01',Agua:'79'},
+{Indice:'22',Desc:'Cenoura (polpa)',Peso:'100',Proteinas:'0.68',Carboidratos:'3.56',Lipideos:'0.078',Fibras:'1.11',VitaminaC:'6.24',Carotenóides:'118.9',Calcio:'5',Potassio:'0.29',Fosforo:'6.37',Ferro:'*',Agua:'92'},
+{Indice:'23',Desc:'Cenoura (casca)',Peso:'100',Proteinas:'0.9',Carboidratos:'0.81',Lipideos:'0.22',Fibras:'1.45',VitaminaC:'2.1',Carotenóides:'24.3',Calcio:'*',Potassio:'0.78',Fosforo:'0.402',Ferro:'*',Agua:'90'},
+{Indice:'24',Desc:'Cenoura (Rama)',Peso:'100',Proteinas:'2.76',Carboidratos:'0.5',Lipideos:'0.42',Fibras:'3.19',VitaminaC:'16.65',Carotenóides:'12.4',Calcio:'68.7',Potassio:'1.15',Fosforo:'*',Ferro:'25.5',Agua:'82'},
+{Indice:'25',Desc:'Couve (talo)',Peso:'100',Proteinas:'0.17',Carboidratos:'3.33',Lipideos:'0.28',Fibras:'1.72',VitaminaC:'5.4',Carotenóides:'1.338',Calcio:'4.2',Potassio:'7.34',Fosforo:'0.22',Ferro:'0.01',Agua:'92'},
+{Indice:'26',Desc:'Couve-flor (folha)',Peso:'100',Proteinas:'0.42',Carboidratos:'1.42',Lipideos:'0.42',Fibras:'1.26',VitaminaC:'122.7',Carotenóides:'12.63',Calcio:'26.1',Potassio:'5.05',Fosforo:'44.8',Ferro:'*',Agua:'90'},
+{Indice:'27',Desc:'Couve-flor (talo)',Peso:'100',Proteinas:'1.21',Carboidratos:'1.61',Lipideos:'0.37',Fibras:'1.25',VitaminaC:'5.7',Carotenóides:'0.692',Calcio:'0.02',Potassio:'2.83',Fosforo:'0.008',Ferro:'0.0021',Agua:'91'},
+{Indice:'28',Desc:'Chuchu (polpa)',Peso:'100',Proteinas:'0.56',Carboidratos:'1.6',Lipideos:'0.11',Fibras:'0.54',VitaminaC:'8.5',Carotenóides:'20.4',Calcio:'3.47',Potassio:'0.14',Fosforo:'17.5',Ferro:'*',Agua:'94'},
+{Indice:'29',Desc:'Chuchu (casca)',Peso:'100',Proteinas:'0.96',Carboidratos:'0.46',Lipideos:'0.12',Fibras:'1.66',VitaminaC:'5.81',Carotenóides:'1.4',Calcio:'*',Potassio:'0.17',Fosforo:'*',Ferro:'*',Agua:'90'},
+{Indice:'30',Desc:'Espinafre (talo)',Peso:'100',Proteinas:'1.78',Carboidratos:'0.48',Lipideos:'0.26',Fibras:'1.97',VitaminaC:'7.23',Carotenóides:'0.213',Calcio:'2.59',Potassio:'1.04',Fosforo:'39.8',Ferro:'0.91',Agua:'89'},
+{Indice:'31',Desc:'Erva cidreira (folha)',Peso:'100',Proteinas:'1.88',Carboidratos:'0.36',Lipideos:'0.66',Fibras:'10.2',VitaminaC:'347',Carotenóides:'8.984',Calcio:'0.13',Potassio:'0.63',Fosforo:'0.045',Ferro:'0.003',Agua:'68'},
+{Indice:'32',Desc:'Erva cidreira (talo)',Peso:'100',Proteinas:'0.78',Carboidratos:'1.1',Lipideos:'0.22',Fibras:'3.38',VitaminaC:'42',Carotenóides:'0.57',Calcio:'0.15',Potassio:'0.48',Fosforo:'0.019',Ferro:'0.0012',Agua:'79'},
+{Indice:'33',Desc:'Goiaba (polpa)',Peso:'100',Proteinas:'0.48',Carboidratos:'8.02',Lipideos:'0.91',Fibras:'2.74',VitaminaC:'91.9',Carotenóides:'75.4',Calcio:'4.35',Potassio:'0.26',Fosforo:'9.84',Ferro:'*',Agua:'84'},
+{Indice:'34',Desc:'Goiaba (casca)',Peso:'100',Proteinas:'1.01',Carboidratos:'2.23',Lipideos:'0.35',Fibras:'3.85',VitaminaC:'31.2',Carotenóides:'3.55',Calcio:'*',Potassio:'0.21',Fosforo:'*',Ferro:'*',Agua:'82'},
+{Indice:'35',Desc:'Jaca (polpa)',Peso:'100',Proteinas:'3.22',Carboidratos:'29.54',Lipideos:'0.52',Fibras:'5.31',VitaminaC:'92',Carotenóides:'0.243',Calcio:'0.08',Potassio:'0.67',Fosforo:'0.02',Ferro:'0.002',Agua:'75'},
+{Indice:'36',Desc:'Jaca (casca)',Peso:'100',Proteinas:'1.02',Carboidratos:'14.71',Lipideos:'0.12',Fibras:'3.4',VitaminaC:'403',Carotenóides:'0.634',Calcio:'0.04',Potassio:'0.31',Fosforo:'0.01',Ferro:'0.0009',Agua:'87'},
+{Indice:'37',Desc:'Jaca (semente)',Peso:'100',Proteinas:'2.49',Carboidratos:'0.82',Lipideos:'0.21',Fibras:'2.25',VitaminaC:'4.4',Carotenóides:'0.545',Calcio:'0.76',Potassio:'5.67',Fosforo:'0.19',Ferro:'tr',Agua:'88'},
+{Indice:'38',Desc:'Jiló (polpa)',Peso:'100',Proteinas:'1.61',Carboidratos:'1.71',Lipideos:'0.68',Fibras:'1.82',VitaminaC:'3.7',Carotenóides:'0.115',Calcio:'0.1',Potassio:'1.5',Fosforo:'*',Ferro:'tr',Agua:'90'},
+{Indice:'39',Desc:'Jiló (casca)',Peso:'100',Proteinas:'0.95',Carboidratos:'0.91',Lipideos:'0.3',Fibras:'4.76',VitaminaC:'3.9',Carotenóides:'0.055',Calcio:'0.39',Potassio:'5.85',Fosforo:'0.16',Ferro:'tr',Agua:'86'},
+{Indice:'40',Desc:'Laranja (polpa)',Peso:'100',Proteinas:'0.98',Carboidratos:'2.49',Lipideos:'0.3',Fibras:'0.92',VitaminaC:'32.6',Carotenóides:'15.2',Calcio:'7.69',Potassio:'0.21',Fosforo:'18.9',Ferro:'*',Agua:'88'},
+{Indice:'41',Desc:'Laranja (casca)',Peso:'100',Proteinas:'1.2',Carboidratos:'12.1',Lipideos:'0.71',Fibras:'6.48',VitaminaC:'13.7',Carotenóides:'0.003',Calcio:'362',Potassio:'0.33',Fosforo:'106.9',Ferro:'*',Agua:'66'},
+{Indice:'42',Desc:'Limão (polpa)',Peso:'100',Proteinas:'1.01',Carboidratos:'1',Lipideos:'0.24',Fibras:'1.21',VitaminaC:'29.8',Carotenóides:'9.2',Calcio:'5.7',Potassio:'0.17',Fosforo:'12.5',Ferro:'*',Agua:'89'},
+{Indice:'43',Desc:'Limão (casca)',Peso:'100',Proteinas:'3.07',Carboidratos:'2.43',Lipideos:'0.92',Fibras:'6.71',VitaminaC:'14.51',Carotenóides:'1.41',Calcio:'*',Potassio:'1.96',Fosforo:'*',Ferro:'*',Agua:'59'},
+{Indice:'44',Desc:'Linhaça (semente)',Peso:'100',Proteinas:'24',Carboidratos:'4.04',Lipideos:'17.7',Fibras:'42.47',VitaminaC:'3.4',Carotenóides:'1.42',Calcio:'4.07',Potassio:'2.73',Fosforo:'0.15',Ferro:'0.07',Agua:'9'},
+{Indice:'45',Desc:'Maçã (polpa)',Peso:'100',Proteinas:'0.32',Carboidratos:'10.6',Lipideos:'0.17',Fibras:'0.73',VitaminaC:'2.05',Carotenóides:'21.5',Calcio:'3.28',Potassio:'0.11',Fosforo:'9.4',Ferro:'*',Agua:'85'},
+{Indice:'46',Desc:'Maçã (casca)',Peso:'100',Proteinas:'0.55',Carboidratos:'4.71',Lipideos:'0.7',Fibras:'2.5',VitaminaC:'6.2',Carotenóides:'0.903',Calcio:'*',Potassio:'0.07',Fosforo:'*',Ferro:'*',Agua:'82'},
+{Indice:'47',Desc:'Mamão desverdecido (polpa)',Peso:'100',Proteinas:'0.52',Carboidratos:'9.19',Lipideos:'0.27',Fibras:'1.27',VitaminaC:'56.4',Carotenóides:'99.3',Calcio:'12.1',Potassio:'0.27',Fosforo:'35',Ferro:'*',Agua:'86'},
+{Indice:'48',Desc:'Mamão desverdecido (casca)',Peso:'100',Proteinas:'1.59',Carboidratos:'4.65',Lipideos:'0.15',Fibras:'1.94',VitaminaC:'52.8',Carotenóides:'11.2',Calcio:'10.29',Potassio:'0.45',Fosforo:'50',Ferro:'*',Agua:'86'},
+{Indice:'49',Desc:'Mamão verde (polpa)',Peso:'100',Proteinas:'0.82',Carboidratos:'10.64',Lipideos:'0.18',Fibras:'2.16',VitaminaC:'35',Carotenóides:'0.31',Calcio:'0.1',Potassio:'0.42',Fosforo:'0.043',Ferro:'0.0006',Agua:'89'},
+{Indice:'50',Desc:'Mamão verde (casca)',Peso:'100',Proteinas:'0.47',Carboidratos:'9.04',Lipideos:'0.29',Fibras:'1.99',VitaminaC:'87',Carotenóides:'5.88',Calcio:'0.08',Potassio:'0.56',Fosforo:'0.014',Ferro:'0.0005',Agua:'90'},
+{Indice:'51',Desc:'Manga (polpa)',Peso:'100',Proteinas:'1.08',Carboidratos:'16.33',Lipideos:'0.29',Fibras:'3.21',VitaminaC:'4',Carotenóides:'17.3',Calcio:'0.4',Potassio:'3.45',Fosforo:'0.12',Ferro:'0.01',Agua:'65'},
+{Indice:'52',Desc:'Manga (casca)',Peso:'100',Proteinas:'0.43',Carboidratos:'2.38',Lipideos:'0.27',Fibras:'2.93',VitaminaC:'5',Carotenóides:'30.36',Calcio:'0.3',Potassio:'4.95',Fosforo:'0.1',Ferro:'0.02',Agua:'88'},
+{Indice:'53',Desc:'Maracujá (suco)',Peso:'100',Proteinas:'1.26',Carboidratos:'8.8',Lipideos:'0.23',Fibras:'0.51',VitaminaC:'21',Carotenóides:'24.7',Calcio:'2.24',Potassio:'0.26',Fosforo:'22',Ferro:'*',Agua:'100'},
+{Indice:'54',Desc:'Maracujá (casca)',Peso:'100',Proteinas:'0.93',Carboidratos:'1.76',Lipideos:'0.23',Fibras:'5.2',VitaminaC:'20',Carotenóides:'2.85',Calcio:'*',Potassio:'0.58',Fosforo:'*',Ferro:'*',Agua:'86'},
+{Indice:'55',Desc:'Maracujá (semente)',Peso:'100',Proteinas:'5.93',Carboidratos:'1',Lipideos:'8.48',Fibras:'27.41',VitaminaC:'5.3',Carotenóides:'6.11',Calcio:'3.08',Potassio:'2.75',Fosforo:'0.18',Ferro:'0.05',Agua:'59'},
+{Indice:'56',Desc:'Mexerica (polpa)',Peso:'100',Proteinas:'0.83',Carboidratos:'6.41',Lipideos:'0.7',Fibras:'1.06',VitaminaC:'3.3',Carotenóides:'0.295',Calcio:'0.16',Potassio:'4.5',Fosforo:'*',Ferro:'0.02',Agua:'88'},
+{Indice:'57',Desc:'Mexerica (casca)',Peso:'100',Proteinas:'1.26',Carboidratos:'6.65',Lipideos:'0.59',Fibras:'3.11',VitaminaC:'6.9',Carotenóides:'2.138',Calcio:'0.77',Potassio:'1.77',Fosforo:'*',Ferro:'0.02',Agua:'76'},
+{Indice:'58',Desc:'Melancia (polpa)',Peso:'100',Proteinas:'0.54',Carboidratos:'4.88',Lipideos:'0.21',Fibras:'0.42',VitaminaC:'7.95',Carotenóides:'24.1',Calcio:'2.26',Potassio:'0.09',Fosforo:'7.42',Ferro:'*',Agua:'94'},
+{Indice:'59',Desc:'Melancia  (casca)',Peso:'100',Proteinas:'0.75',Carboidratos:'0.29',Lipideos:'0.094',Fibras:'1.11',VitaminaC:'2.5',Carotenóides:'1.38',Calcio:'*',Potassio:'0.44',Fosforo:'*',Ferro:'*',Agua:'94'},
+{Indice:'60',Desc:'Milho (cabelo)',Peso:'100',Proteinas:'3.86',Carboidratos:'0.58',Lipideos:'0.078',Fibras:'0.05',VitaminaC:'55',Carotenóides:'1.794',Calcio:'0.23',Potassio:'6.24',Fosforo:'0.46',Ferro:'0.02',Agua:'78'},
+{Indice:'61',Desc:'Milho (bagaço)',Peso:'100',Proteinas:'3.14',Carboidratos:'2.47',Lipideos:'0.5',Fibras:'1.45',VitaminaC:'34',Carotenóides:'0.314',Calcio:'0.2',Potassio:'2.84',Fosforo:'0.4',Ferro:'0.07',Agua:'79'},
+{Indice:'62',Desc:'Melão (polpa)',Peso:'100',Proteinas:'0.62',Carboidratos:'2.83',Lipideos:'0.045',Fibras:'0.58',VitaminaC:'7.33',Carotenóides:'21.3',Calcio:'1.93',Potassio:'0.3',Fosforo:'5.67',Ferro:'*',Agua:'93'},
+{Indice:'63',Desc:'Melão (casca)',Peso:'100',Proteinas:'0.34',Carboidratos:'1.84',Lipideos:'0.1',Fibras:'1.64',VitaminaC:'2.98',Carotenóides:'2.96',Calcio:'7.27',Potassio:'0.17',Fosforo:'20',Ferro:'*',Agua:'93'},
+{Indice:'64',Desc:'Melão (semente)',Peso:'100',Proteinas:'15.86',Carboidratos:'1.58',Lipideos:'14.97',Fibras:'30.94',VitaminaC:'5',Carotenóides:'45.05',Calcio:'0.08',Potassio:'1.43',Fosforo:'*',Ferro:'0.06',Agua:'44'},
+{Indice:'65',Desc:'Mostarda (talo)',Peso:'100',Proteinas:'0.66',Carboidratos:'0.71',Lipideos:'0.07',Fibras:'0.69',VitaminaC:'3.8',Carotenóides:'0.917',Calcio:'1.5',Potassio:'8.42',Fosforo:'*',Ferro:'0.05',Agua:'95'},
+{Indice:'66',Desc:'Nabo (folha)',Peso:'100',Proteinas:'3.78',Carboidratos:'0.55',Lipideos:'0.58',Fibras:'1.69',VitaminaC:'7.4',Carotenóides:'12.944',Calcio:'3.13',Potassio:'4.13',Fosforo:'*',Ferro:'0.02',Agua:'86'},
+{Indice:'67',Desc:'Nabo (talo)',Peso:'100',Proteinas:'*',Carboidratos:'0.21',Lipideos:'*',Fibras:'*',VitaminaC:'*',Carotenóides:'*',Calcio:'3.33',Potassio:'4.63',Fosforo:'*',Ferro:'0.02',Agua:'*'},
+{Indice:'68',Desc:'Pepino (polpa)',Peso:'100',Proteinas:'0.97',Carboidratos:'0.24',Lipideos:'0.19',Fibras:'0.76',VitaminaC:'4.1',Carotenóides:'0.494',Calcio:'0.41',Potassio:'4.83',Fosforo:'*',Ferro:'0.002',Agua:'97'},
+{Indice:'69',Desc:'Pepino (casca)',Peso:'100',Proteinas:'1.52',Carboidratos:'0.19',Lipideos:'0.16',Fibras:'2.46',VitaminaC:'3.5',Carotenóides:'3',Calcio:'0.93',Potassio:'7.21',Fosforo:'0.26',Ferro:'0.01',Agua:'94'},
+{Indice:'70',Desc:'Pimentão (miolo)',Peso:'100',Proteinas:'2.51',Carboidratos:'1.67',Lipideos:'0.61',Fibras:'1.92',VitaminaC:'2.5',Carotenóides:'0.972',Calcio:'0.1',Potassio:'2.75',Fosforo:'0.1',Ferro:'0.02',Agua:'92'},
+{Indice:'71',Desc:'Pera (polpa)',Peso:'100',Proteinas:'0.34',Carboidratos:'0.59',Lipideos:'0.21',Fibras:'4.88',VitaminaC:'20',Carotenóides:'9.78',Calcio:'0.6',Potassio:'2.31',Fosforo:'0.11',Ferro:'0.01',Agua:'74'},
+{Indice:'72',Desc:'Rabanete (casca)',Peso:'100',Proteinas:'3.67',Carboidratos:'0.26',Lipideos:'0.18',Fibras:'1.37',VitaminaC:'8.3',Carotenóides:'0.91',Calcio:'5.56',Potassio:'7.09',Fosforo:'0.28',Ferro:'0.09',Agua:'90'},
+{Indice:'73',Desc:'Salsão (folha)',Peso:'100',Proteinas:'2.79',Carboidratos:'0.19',Lipideos:'0.44',Fibras:'1.52',VitaminaC:'14.2',Carotenóides:'13.31',Calcio:'65.9',Potassio:'2.3',Fosforo:'41.1',Ferro:'1.15',Agua:'86'},
+{Indice:'74',Desc:'Salsão (talo)',Peso:'100',Proteinas:'*',Carboidratos:'*',Lipideos:'*',Fibras:'*',VitaminaC:'3.17',Carotenóides:'2.83',Calcio:'0.35',Potassio:'0.56',Fosforo:'7.42',Ferro:'3.08',Agua:'95'},
+{Indice:'75',Desc:'Salsinha (folha)',Peso:'100',Proteinas:'*',Carboidratos:'*',Lipideos:'*',Fibras:'*',VitaminaC:'*',Carotenóides:'*',Calcio:'30.8',Potassio:'1.3',Fosforo:'124.5',Ferro:'*',Agua:'82'},
+{Indice:'76',Desc:'Salsinha (talo)',Peso:'100',Proteinas:'1.16',Carboidratos:'1.97',Lipideos:'0.48',Fibras:'3.66',VitaminaC:'32.67',Carotenóides:'0.002',Calcio:'31',Potassio:'1.46',Fosforo:'12.2',Ferro:'*',Agua:'83'}
+]
