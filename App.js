@@ -4,6 +4,7 @@ import { StyleSheet,ScrollView,Alert, Text,Picker,ImageBackground,View, Image ,T
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import {imcfunc,status,acharsemana,dadossemanas,statusimc,pesoideal} from "./functions/Imc";
+import * as Linking from 'expo-linking';
 import Modal from "react-native-modalbox";
 import Barra from "./content/barra";
 import {status2} from "./functions/Imc";
@@ -58,7 +59,7 @@ function Tabelanconvencionais({ navigation }) {
           data={imagem}
           keyExtractor={item => item.key}
           renderItem={({item})=>(
-            <TouchableOpacity  style={{alignItems:"center"}} onPress={()=>{if(item.func!=''){navigation.navigate(item.func)}else{Alert.alert('Em Breve!','Estamos sempre trabalhando para melhorar o uso do app.')}}} activeOpacity={0.9}>
+            <TouchableOpacity  style={{alignItems:"center"}} onPress={()=>{if(item.func!=''){navigation.navigate(item.func)}else{Alert.alert('Disponível na versão pro.','Baixe a nossa versão pro com essa e muitas outras funcionalidades.',[{text:'Ver depois'},{text:'Saiba mais',onPress:()=>Linking.openURL('https://play.google.com/store/apps/details?id=com.nutriinterativa.calculadorapro')}])}}} activeOpacity={0.9}>
                   
                 
                 <Image
@@ -460,16 +461,25 @@ function nconvencionaisnutrientes({ route,navigation }){
 function Primeirapag({ navigation }){
   
 
-  useEffect(()=>{setTimeout(() => navigation.navigate('Home'),3000)})
+  
 
   return(
     
 
     <View style={styles.container}>
-
-        <View style={{top:"20%",left:"5%",transform:[{scale:0.5}]}}>
-
-          <Image source={require("./assets/abertura.png")}/>
+        
+        <View style={{top:"5%",alignItems:'center',marginVertical:'5%',justifyContent:'center',left:"5%",transform:[{scale:0.5}]}}>
+          
+          
+          <Image style={{marginVertical:'10%'}} source={require("./image/banner.png")}/>
+          <TouchableOpacity onPress={()=>Linking.openURL('https://play.google.com/store/apps/details?id=com.nutriinterativa.calculadorapro')} style={{alignItems:'center',justifyContent:'center',marginVertical:'10%',backgroundColor:'#0e9b56ff',height:80,width:250}}>
+            <Text style={{color:'white',fontSize:30}}>Saiba mais</Text>
+            
+          </TouchableOpacity>
+          <TouchableOpacity onPress={()=>navigation.navigate('Home')} style={{alignItems:'center',justifyContent:'center',marginVertical:'10%',backgroundColor:'#0e9b56ff',height:80,width:250}}>
+            
+            <Text style={{color:'white',fontSize:30}}>Ver depois</Text>
+          </TouchableOpacity>
 
         <AdMobBanner
             bannerSize="smartBannerLandscape"
@@ -613,7 +623,7 @@ function Tabelataco({ navigation }) {
           data={imagem}
           keyExtractor={item => item.key}
           renderItem={({item})=>(
-            <TouchableOpacity  style={{alignItems:"center"}} onPress={()=>{if(item.func!=''){navigation.navigate(item.func)}else{Alert.alert('Em Breve!','Estamos sempre trabalhando para melhorar o uso do app.')}}} activeOpacity={0.9}>
+            <TouchableOpacity  style={{alignItems:"center"}} onPress={()=>{if(item.func!=''){navigation.navigate(item.func)}else{Alert.alert('Disponível na versão pro.','Baixe a nossa versão pro com essa e muitas outras funcionalidades.',[{text:'Ver depois'},{text:'Saiba mais',onPress:()=>Linking.openURL('https://play.google.com/store/apps/details?id=com.nutriinterativa.calculadorapro')}])}}} activeOpacity={0.9}>
                   
                 
                 <Image

@@ -2,7 +2,7 @@
   "expo": {
     "name": "CalculadoraNutri",
     "slug": "calculadora",
-    "version": "4.0.0",
+    "version": "7.0.0",
     "orientation": "portrait",
     "icon": "./assets/iconeps.png",
     "splash": {
@@ -24,10 +24,11 @@
     },
     "android": {
       "package": "com.nutriinterativa.calculadora",
-      "versionCode": 4,
+      "versionCode": 7,
       "config": {
         "googleMobileAdsAppId": "ca-app-pub-3107661564294379~2926527615"
-      }
+      },
+      "permissions":[]
       
 
     }
