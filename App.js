@@ -33,7 +33,7 @@ function Tabelanconvencionais({ navigation }) {
 
   const [imagem,setimagem]=useState([
     {source:require('./image/tacoordemalfa.png'),func:'convencionaisnome',key:'1',nome:"Nome"},
-    {source:require('./image/tacomicro.png'),func:'',key:'2',nome:"Mironutrientes"},
+    {source:require('./image/tacomicro.png'),func:'',key:'2',nome:"Micronutrientes"},
     {source:require('./image/tacomacro.png'),func:'',key:'3',nome:"Macronutrientes"},
     {source:require('./image/tacotipo.png'),func:'',key:'4',nome:"Tipo"},
     {source:require('./image/outrosmenu.png'),func:'',key:'5',nome:"Outros"},
@@ -597,7 +597,7 @@ function Tabelataco({ navigation }) {
 
   const [imagem,setimagem]=useState([
     {source:require('./image/tacoordemalfa.png'),func:'taconome',key:'1',nome:"Nome"},
-    {source:require('./image/tacomicro.png'),func:'',key:'2',nome:"Mironutrientes"},
+    {source:require('./image/tacomicro.png'),func:'',key:'2',nome:"Micronutrientes"},
     {source:require('./image/tacomacro.png'),func:'',key:'3',nome:"Macronutrientes"},
     {source:require('./image/tacotipo.png'),func:'',key:'4',nome:"Tipo"},
     {source:require('./image/outrosmenu.png'),func:'',key:'5',nome:"Outros"},
